@@ -62,56 +62,6 @@ public class keyPad : MonoBehaviour
         }
     }
 
-    public void One()
-    {
-        numberSaver[currentNumber] = 1;
-        currentNumber++;
-    }
-    public void Two()
-    {
-        numberSaver[currentNumber] = 2;
-        currentNumber++;
-    }
-    public void Three()
-    {
-        numberSaver[currentNumber] = 3;
-        currentNumber++;
-    }
-    public void Four()
-    {
-        numberSaver[currentNumber] = 4;
-        currentNumber++;
-    }
-    public void Five()
-    {
-        numberSaver[currentNumber] = 5;
-        currentNumber++;
-    }
-    public void Six()
-    {
-        numberSaver[currentNumber] = 6;
-        currentNumber++;
-    }
-    public void Seven()
-    {
-        numberSaver[currentNumber] = 7;
-        currentNumber++;
-    }
-    public void Eight()
-    {
-        numberSaver[currentNumber] = 8;
-        currentNumber++;
-    }
-    public void Nine()
-    {
-        numberSaver[currentNumber] = 9;
-        currentNumber++;
-    }
-    public void Zero()
-    {
-        numberSaver[currentNumber] = 0;
-        currentNumber++;
-    }
     public void ButtonValue(int value)
     {
         if(currentNumber-1<=numberSaver.Length)
