@@ -15,6 +15,11 @@ public class Bullet : MonoBehaviour
         {
             Destroy(gameObject);
         }
+        if(other.gameObject.tag=="Block")
+        {
+            StartCoroutine(other.GetComponent<block2>().razbij());
+            Destroy(gameObject);
+        }
     }
     public float bulletLifetime;
     public bool isRight;
